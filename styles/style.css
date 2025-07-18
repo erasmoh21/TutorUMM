@@ -6,6 +6,8 @@
 * {
     font-family: var(--tipoLetra-Principal);
     margin: 0;
+    outline: none;
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -29,6 +31,7 @@
     display: flex;
     gap: 25px;
     font-weight: 600;
+    margin-right: 15px;
 }
 
 .mainContainerHeader ul li {
@@ -54,16 +57,66 @@
 .containerBannerLogin #loginForm{
     display: flex;
     flex-direction: column;
+    border: 1px solid var(--color-principal);
+    border-radius: 5px;
+    padding: 25px;
+    background-color: rgba(255, 0, 44, .1);
+}
+
+.containerBannerLogin fieldset {
+    display:flex;
+    border: none;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.containerBannerLogin fieldset label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.containerBannerLogin #loginForm input{
+    border: 1px solid red;
+    border-radius: 15px;
+    padding-left: 8px;
+    height: 20px;
+}
+
+.containerBannerLogin button {
+    background-color: #FF002C;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 15px;
+    border-style: 1px line var(--color-principal);
+    cursor: pointer;
+    transition: .2s background-color ease;
+}
+
+.containerBannerLogin button:hover {
+    color: var(--color-principal);
+    outline: 1px solid var(--color-principal);
+    background-color: #FFFFFF;
+}
+
+.containerBannerLogin #linkResetContrasena {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 7px;
+    border-top: 1px solid var(--color-principal);
+    color: #000000;
 }
 
 /* FOOTER */
 
 .containerFooter {
+    padding: 25px;
+    font-weight: 700;
     background-color: var(--color-principal);
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
-    font-weight: 700;
 }
 
 .containerFooter .logoFooter {

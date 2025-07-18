@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="educacion, educacion virtual, educacion universitaria, educacion virtual universitaria, clases remotas, clases en linea, tutorias,tutorias en linea">
     <title>UMMTutor | Tutorias para estudiantes de la UMM</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="import" href="./templates/header.html">
@@ -27,12 +28,20 @@
 
             <nav class="containerBannerLogin">
                 <form action="POST" id="loginForm">
-                    <label for="nameUser">Nombre de usuario:</label>
-                    <input type="text" id="nameUser" name="nameUser" value="">
-                    <label for="passwordLogin">Contraseña:</label>
-                    <input type="password" name="passwordLogin" id="passwordLogin">
+                    <fieldset class="campoNombreUsuario">
+                        <label for="nameUser">Nombre de usuario:</label>
+                        <input type="text" id="nameUser" name="nameUser">
+                    </fieldset>
+
+                    <fieldset class="campoContrasenaUsuario">
+                        <label for="passwordLogin">Contraseña:</label>
+                        <input type="password" name="passwordLogin" id="passwordLogin">
+                    </fieldset>
+
                     <button>Iniciar sesión</button>
                     <button>Registrarse</button>
+
+                    <a id="linkResetContrasena" href="/">Olvidé mi contraseña</a>
                 </form>
             </nav>
         </div>
@@ -40,7 +49,7 @@
     
     <footer>
         <div class="containerFooter">
-            <p class="logoFooter">TutorUmm</p>
+            <p class="logoFooter">TutorUMM</p>
             <p class="frase">Hecho con ❤️ en la Universidad Metropolitana de Monterrey</p>
         </div>
     </footer>
