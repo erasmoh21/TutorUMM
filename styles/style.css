@@ -8,6 +8,8 @@
     margin: 0;
 }
 
+/* HEADER */
+
 .mainContainerHeader {
     padding: 25px;
     background-color: var(--color-principal);
@@ -39,5 +41,31 @@
     cursor:default;
     background-color: #FFFFFF;
     color: var(--color-principal);
+}
 
+/* MAIN */
+
+.mainContainerMain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerBannerLogin #loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+.containerFooter {
+    background-color: var(--color-principal);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.containerFooter .logoFooter {
+    padding-left: 45px;
 }

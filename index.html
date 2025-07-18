@@ -26,27 +26,22 @@
             </figure>
 
             <nav class="containerBannerLogin">
-                <div>
-                    <div>
-                        <form action="POST">
-                            <label for="nameUser">Nombre de usuario:</label>
-                            <input type="text" id="nameUser" name="nameUser" value="">
-                            <label for="passwordLogin">Contraseña:</label>
-                            <input type="password" name="passwordLogin" id="passwordLogin">
-                            <button>Iniciar sesión</button>
-                            <button>Registrarse</button>
-                        </form>
-                    </div>
-                </div>
-
+                <form action="POST" id="loginForm">
+                    <label for="nameUser">Nombre de usuario:</label>
+                    <input type="text" id="nameUser" name="nameUser" value="">
+                    <label for="passwordLogin">Contraseña:</label>
+                    <input type="password" name="passwordLogin" id="passwordLogin">
+                    <button>Iniciar sesión</button>
+                    <button>Registrarse</button>
+                </form>
             </nav>
         </div>
     </main>
     
     <footer>
-        <div>
-            <p>TutorUmm</p>
-            <p>Hecho con ❤️ en la Universidad Metropolitana de Monterrey</p>
+        <div class="containerFooter">
+            <p class="logoFooter">TutorUmm</p>
+            <p class="frase">Hecho con ❤️ en la Universidad Metropolitana de Monterrey</p>
         </div>
     </footer>
 </body>
