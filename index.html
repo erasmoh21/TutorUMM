@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMMTutor | Tutorias para estudiantes de la UMM</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="import" href="./templates/header.html">
 </head>
 <body>
     <header>
         <nav>
             <p>TutorUMM</p>
-
             <ul>
                 <li>Solicitar Tutorias</li>
                 <li>Tutores</li>
@@ -17,8 +18,8 @@
             </ul>
         </nav>
     </header>
-
-    <main>
+    
+        <main>
         <div>
             <figure>
                 <img src="./assets/imgs/undraw_math_ldpv.svg" alt="">
@@ -28,7 +29,9 @@
                 <div>
                     <div>
                         <form action="POST">
-                            <input type="text" name="nameUser" value="">
+                            <label for="nameUser">Nombre de usuario:</label>
+                            <input type="text" id="nameUser" name="nameUser" value="">
+                            <label for="passwordLogin">Contraseña:</label>
                             <input type="password" name="passwordLogin" id="passwordLogin">
                             <button>Iniciar sesión</button>
                             <button>Registrarse</button>
