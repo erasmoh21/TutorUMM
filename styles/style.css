@@ -1,11 +1,16 @@
+:root {
+    --color-principal: #FF002C;
+    --tipoLetra-Principal: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 * {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: var(--tipoLetra-Principal);
     margin: 0;
 }
 
 .mainContainerHeader {
     padding: 25px;
-    background-color: #FF002C;
+    background-color: var(--color-principal);
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -33,6 +38,6 @@
 .mainContainerHeader ul li:hover {
     cursor:default;
     background-color: #FFFFFF;
-    color: #FF002C;
+    color: var(--color-principal);
 
 }
