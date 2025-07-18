@@ -1,0 +1,38 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.mainContainerHeader {
+    padding: 25px;
+    background-color: #FF002C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContainerHeader .logoPrincipal{
+    font-weight: 600;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.mainContainerHeader ul {
+    display: flex;
+    gap: 25px;
+    font-weight: 600;
+}
+
+.mainContainerHeader ul li {
+    padding: 5px;
+    border-radius: 5px;
+    transition: all .2s ease-in;
+}
+
+.mainContainerHeader ul li:hover {
+    cursor:default;
+    background-color: #FFFFFF;
+    color: #FF002C;
+
+}
