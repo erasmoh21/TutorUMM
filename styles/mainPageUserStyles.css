@@ -1,0 +1,10 @@
+@import "./generalRules.css";
+@import "./generalRulesHeader.css";
+
+/*HEADER*/
+
+.mainContainerHeader .logoPrincipal {
+    font-weight: 600;
+    margin-left: 15px;
+    cursor: pointer;
+}

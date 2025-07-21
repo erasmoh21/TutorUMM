@@ -1,0 +1,11 @@
+@import "./generalRules.css";
+
+.mainContainerHeader {
+    padding: 25px;
+    background-color: var(--color-principal);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

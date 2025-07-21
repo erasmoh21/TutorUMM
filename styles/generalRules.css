@@ -1,0 +1,11 @@
+:root {
+    --color-principal: #FF002C;
+    --tipoLetra-Principal: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* {
+    font-family: var(--tipoLetra-Principal);
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+}

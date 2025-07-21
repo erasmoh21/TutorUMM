@@ -1,25 +1,8 @@
-:root {
-    --color-principal: #FF002C;
-    --tipoLetra-Principal: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-* {
-    font-family: var(--tipoLetra-Principal);
-    margin: 0;
-    outline: none;
-    text-decoration: none;
-}
+@import "./generalRules.css";
 
 /* HEADER */
 
-.mainContainerHeader {
-    padding: 25px;
-    background-color: var(--color-principal);
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+@import "./generalRulesHeader.css";
 
 .mainContainerHeader .logoPrincipal{
     font-weight: 600;
