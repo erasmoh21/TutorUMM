@@ -1,0 +1,32 @@
+@import "./generalRules.css";
+@import "./generalRulesHeader.css";
+
+/*HEADER*/
+
+.mainContainerHeader .logoPrincipal {
+    font-weight: 600;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.mainContainerHeader .mainContainerUserBanner {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    outline: 1px solid #FFFFFF;
+    border-radius: 5px;
+} 
+
+.mainContainerHeader .mainContainerUserBanner .containerInformationUser {
+    display: flex;
+    align-items: center;
+}
+
+.mainContainerHeader .mainContainerUserBanner .containerInformationUser .profilePhoto {
+    margin-right: 12px;
+}
+
+.mainContainerHeader .mainContainerUserBanner .mainContainerDownArrayIcon {
+    margin-left: 12px;
+    cursor: pointer;
+} 
