@@ -8,3 +8,31 @@
     margin-left: 15px;
     cursor: pointer;
 }
+
+.mainContainerSeguimientoTutoria {
+    margin: 20px 10px 0 10px;
+    padding: 20px 0;
+    background-color: rgba(255, 0, 44, .1);;
+    color: var(--color-principal);
+    font-weight: 600;
+    border-radius: 5px; 
+    outline: 1px solid red;
+}
+
+.mainContainerSeguimientoTutoria div {
+    display: flex;
+    gap: 50px;
+} 
+
+.mainContainerSeguimientoTutoria div a:first-child  {
+    color: var(--color-principal);
+    margin-left: 35px;
+}
+
+/* MAIN */
+
+.mainContainerTutoresLecciones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px 10px 0 10px;
+}
