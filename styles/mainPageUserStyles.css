@@ -2,7 +2,6 @@
 @import "./generalRulesHeader.css";
 
 /*HEADER*/
-
 .mainContainerHeader .logoPrincipal {
     font-weight: 600;
     margin-left: 15px;
@@ -31,6 +30,33 @@
     cursor: pointer;
 } 
 
+.settingUserBarHeader {
+    display: flex;
+    justify-content: right;
+    font-weight: 600;
+}
+
+.settingUserBarHeader .navUserBarHeader {
+    width: 154px;
+    background-color: #FFFFFF;
+    outline: 1px solid var(--color-principal);
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 23px;
+    position: relative;
+    bottom: 20px;
+}
+
+.settingUserBarHeader .navUserBarHeader ul {
+    padding: 0;
+}
+
+.settingUserBarHeader .navUserBarHeader ul li {
+    margin: 5px 0;
+}
+.settingUserBarHeader .navUserBarHeader ul li a {
+    color: var(--color-principal);
+}
 /* MAIN */
 
 .mainContainerSeguimientoTutoria {
@@ -59,6 +85,10 @@
 .mainContainerSeguimientoTutoria div a:first-child:hover {
     background-color: var(--color-principal);
     color: #FFFFFF;
+}
+
+.mainContainerSeguimientoTutoria div div p {
+    align-self: center;
 }
 
 .mainContainerTutoresLecciones {
